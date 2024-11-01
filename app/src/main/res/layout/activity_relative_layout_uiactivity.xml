@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutUIActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/sign_up"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="60dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="15dp"
+        android:hint="Email"
+        android:textColorHint="#E28DF298"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="15dp"
+        android:hint="Password"
+        android:textColorHint="#E28DF298"
+        android:layout_below="@+id/editTextTextEmailAddress"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/editTextTextPassword2"
+        />
+</RelativeLayout>

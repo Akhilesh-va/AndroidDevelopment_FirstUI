@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EditTextAndImageView</string>
+    <string name="sign_in">Sign IN</string>
+    <string name="sign_up_image">Sign Up Image</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+</resources>
